@@ -1,0 +1,38 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Models (download separately, don't commit)
+*.gguf
+*.engine
+*.trt
+*.onnx
+models/
+
+# Data (logs, recordings)
+data/
+logs/
+recordings/
