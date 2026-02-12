@@ -21,7 +21,7 @@ class AudioCaptureNode(Node):
         super().__init__('audio_capture')
         
         # Declare parameters
-        self.declare_parameter('device', 'hw:2,0')
+        self.declare_parameter('device', 'hw:0,0')
         self.declare_parameter('sample_rate', 16000)
         self.declare_parameter('channels', 2)
         self.declare_parameter('chunk_duration', 0.1)
